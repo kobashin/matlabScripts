@@ -4,4 +4,4 @@ out = sim('ccaller.slx', 'ReturnWorkspaceOutputs','on');
 save_system('ccaller')
 close_system('ccaller')
 disp(ccallerfunctions)
-disp(out.simoutData)
+disp(out.simout.Data)
